@@ -33,7 +33,7 @@ export default function ContactUs() {
         alert('Failed to send message. Please try again.');
       }
     } catch (error) {
-      alert('Error sending message. Please try again.');
+      alert('Error sending message. Please try again.' + error);
     }
   };
 
