@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
@@ -29,8 +30,14 @@ export default function Navbar() {
       <nav className="bg-white shadow-md fixed w-full z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold text-[#0D8AFF]">
-              VegaText
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/img/logo.jpg"
+                alt="VegaText Logo"
+                width={70}
+                height={70}
+                className="rounded-full"
+              />
             </Link>
             <button
               className="md:hidden text-gray-600 focus:outline-none"
@@ -106,8 +113,13 @@ export default function Navbar() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-[#0D8AFF]">
-            VegaText
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/img/logo.jpg"
+              alt="VegaText Logo"
+              width={70}
+              height={70}
+            />
           </Link>
 
           {/* Desktop Navigation */}
