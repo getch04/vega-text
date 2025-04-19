@@ -1,0 +1,22 @@
+<svg width="240" height="120" viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle background -->
+  <circle cx="120" cy="60" r="55" fill="#0D8AFF"/>
+
+  <!-- Speech bubble with star -->
+  <rect x="95" y="25" width="50" height="40" rx="12" fill="white"/>
+  <!-- Speech bubble point -->
+  <path d="M95 55 L105 65 L110 55 Z" fill="white"/>
+
+  <!-- Star/sparkle icon -->
+  <path d="M120 35 L124 47 L135 47 L126 54 L130 65 L120 58 L110 65 L114 54 L105 47 L116 47 Z" fill="#0D8AFF"/>
+  <!-- Small sparkles -->
+  <circle cx="108" cy="35" r="3" fill="#0D8AFF"/>
+  <circle cx="115" cy="40" r="2" fill="#0D8AFF"/>
+
+  <!-- VegaText Text -->
+  <text x="120" y="85" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">VegaText</text>
+
+  <!-- Tagline -->
+  <text x="120" y="100" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">The Brightest Way</text>
+  <text x="120" y="110" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">to Connect</text>
+</svg>
