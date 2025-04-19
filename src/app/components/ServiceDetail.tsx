@@ -518,7 +518,7 @@ export default function ServiceDetail({ serviceId = "mass-text" }: ServiceDetail
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Service Not Found</h1>
-          <p className="text-gray-600 mb-8">The service you're looking for doesn't exist.</p>
+          <p className="text-gray-600 mb-8">The service you&apos;re looking for doesn&apos;t exist.</p>
           <Link
             href="/#services"
             className="inline-flex items-center text-[#0D8AFF] hover:text-blue-700 group"

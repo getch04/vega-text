@@ -95,7 +95,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <p className="text-sm text-gray-500 mt-8">
-              Last Updated: {new Date().toLocaleDateString()}
+              Last Updated: {new Date().toLocaleDateString(&quot;en-US&quot;, { year: &quot;numeric&quot;, month: &quot;long&quot;, day: &quot;numeric&quot; })}
             </p>
           </div>
         </div>

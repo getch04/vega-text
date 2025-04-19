@@ -37,7 +37,7 @@ export default function FAQ() {
                 <div>
                   <h3 className="text-lg font-medium text-gray-800 mb-2">How do I get started with VegaText?</h3>
                   <p className="text-gray-600">
-                    You can get started by contacting our sales team through WhatsApp or email. We'll help you choose the right plan and guide you through the setup process.
+                    You can get started by contacting our sales team through WhatsApp or email. We&apos;ll help you choose the right plan and guide you through the setup process.
                   </p>
                 </div>
 
@@ -117,6 +117,10 @@ export default function FAQ() {
               </a>
             </div>
           </div>
+
+          <p className="text-sm text-gray-500 mt-8">
+            Last Updated: {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+          </p>
         </div>
       </div>
     </div>

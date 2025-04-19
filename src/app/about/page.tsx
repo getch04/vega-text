@@ -84,7 +84,7 @@ export default function AboutUs() {
                     </svg>
                     <div>
                       <span className="font-medium text-gray-800">Customer Focus</span>
-                      <p className="text-gray-600">We prioritize our customers' success above all else.</p>
+                      <p className="text-gray-600">We prioritize our customers&apos; success above all else.</p>
                     </div>
                   </li>
                 </ul>
