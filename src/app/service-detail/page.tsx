@@ -721,11 +721,12 @@ const serviceDetails: ServiceDetails = {
 };
 
 interface ServiceDetailProps {
-  searchParams: { serviceId?: string };
+  searchParams: Promise<{ serviceId?: string }>;
 }
 
-export default function ServiceDetail({ searchParams }: ServiceDetailProps) {
-  const serviceId = searchParams?.serviceId || "mass-text";
+export default async function ServiceDetail({ searchParams }: ServiceDetailProps) {
+  const params = await searchParams;
+  const serviceId = params?.serviceId || "mass-text";
   const service = serviceDetails[serviceId];
 
   if (!service) {
