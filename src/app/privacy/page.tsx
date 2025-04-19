@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 
 export default function PrivacyPolicy() {
@@ -97,7 +95,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <p className="text-sm text-gray-500 mt-8">
-              Last Updated: {new Date().toLocaleDateString(&quot;en-US&quot;, { year: &quot;numeric&quot;, month: &quot;long&quot;, day: &quot;numeric&quot; })}
+              Last Updated: March 2024
             </p>
           </div>
         </div>

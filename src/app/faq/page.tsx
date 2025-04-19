@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 
 export default function FAQ() {
@@ -121,7 +119,7 @@ export default function FAQ() {
           </div>
 
           <p className="text-sm text-gray-500 mt-8">
-            Last Updated: {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+            Last Updated: March 2024
           </p>
         </div>
       </div>
