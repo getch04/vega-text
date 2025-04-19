@@ -710,7 +710,7 @@ export default function Services() {
                 </ul>
 
                 <Link
-                  href={`/services/${service.id}`}
+                  href={`/service-detail?serviceId=${service.id}`}
                   className="inline-flex items-center bg-white text-[#0D8AFF] hover:bg-[#0D8AFF] hover:text-white font-medium py-3 px-6 rounded-full transition-all duration-300 border border-[#0D8AFF] group"
                 >
                   {service.ctaText}
